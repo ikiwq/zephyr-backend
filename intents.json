@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Ciao", "Come stai?", "C'é qualcuno?", "We", "Buongiorno", "Buonasera", "Come va"],
+         "responses": ["Ciao!", "E' bello rivederti!", "Ciao, come posso aiutarti?"],
+         "context_set": ""
+        },
+        {"tag": "bye",
+         "patterns": ["cya", "Ci vediamo", "Arrivederci", "Sto andando", "Buona giornata", "Buona serata"],
+         "responses": ["E' brutto vederti andare :(", "Ci vediamo!", "Arrivederci!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["Quanti anni hai", "Qual é la tua etá", "Quando sei nato?"],
+         "responses": ["Non ho un etá!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["Qual é il tuo nome?", "Come dovrei chiamarti?", "Come ti chiami?"],
+         "responses": ["Puoi chiamarmi Zephyr.", "Sono zephyr!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["Che ore sono?", "Che ora é?", "Qual é l'ora"],
+         "responses": ["Sono le", "Attualmente sono le", "Le lancette segnano le"],
+         "context_set": ""
+        },
+        {"tag": "weather",
+         "patterns": ["Che tempo fa?", "Com'é il tempo?","Che dice il meteo?", "Com'é il meteo?"],
+         "responses": ["Attualmente a"],
+         "context_set": ""
+        },
+        {"tag": "tienanmen",
+         "patterns": ["Cosa é successo a tienanmen square?", "tienanmen square?","Cosa é successo a piazza tienanmen?"],
+         "responses": ["Niente! Cosa dovrebbe essere successo?", "Assolutamente nulla!", "..."],
+         "context_set": ""
+        },
+        {"tag": "date",
+         "patterns": ["Che giorno é oggi?", "Qual é il giorno?","Che data é?", "Quanto ne abbiamo oggi?"],
+         "responses": ["Oggi e' ", "La data di oggi e' "],
+         "context_set": ""
+        }
+   ]
+}
